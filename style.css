@@ -1,0 +1,56 @@
+/* Selector Universal */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu-container{
+    background-color: #5995da;
+    color: white;
+    padding: 20px 0px;
+    display: flex;
+    /* Alinear Horizontalmente */
+    justify-content: center;
+}
+
+.menu{
+    border: 1px solid white;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.product-container{
+    background-color: #D6E9FE;
+    color: #5995da;
+    display: flex;
+    justify-content: center;
+}
+
+.product{
+
+    width: 70%;
+    /* viewport */
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    /* Alinear Verticalmente */
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.photo-grid-container{
+    display: flex;
+    justify-content: center;
+}
+.photo-grid{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    /* Cuando desbordan los elementos se activa */
+    flex-wrap: wrap;
+}
+
+
